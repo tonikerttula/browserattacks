@@ -92,6 +92,10 @@ All is good, now open another VM in the internal network and see if the page wor
 
 As we can see, now different VM in the intnet can access the other VM's hosted home page.
 
+#### Finally:
+
+If you need to reach internet, just go to the VM settings and change the internal network to NAT. You can add additional VM's to the internal network by just choosing the saved internal network in the network settings.
+
 [1]: https://i.imgur.com/BAaW0mU.png
 [2]: https://i.imgur.com/DkyhwDn.png
 [3]: https://i.imgur.com/GHWLCzy.png
