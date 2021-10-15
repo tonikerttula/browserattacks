@@ -70,8 +70,31 @@ In the command prompt typing `ifconfig` you can check the ip addresses of the ma
 As we can see, now the machines are able to ping each other, but not able to reach internet. Screenshot is only from the 192.168.2.3 VM, but both tested and worked.
 
 
+#### Testing accessing website from other VM
+
+So I chose a VM, and went set up apache home page for testing. I accessed the home page file with `sudo nano /var/www/html/index.html`
+I typed the following in the file:
+```
+<html>
+
+<body>
+
+<h1>Hello </h1>
+
+</body>
+</html>
+```
+Now I saved the file and opened the browser to check if the page worked:
+![5]
+
+All is good, now open another VM in the internal network and see if the page works.
+![6]
+
+As we can see, now different VM in the intnet can access the other VM's hosted home page.
 
 [1]: https://i.imgur.com/BAaW0mU.png
 [2]: https://i.imgur.com/DkyhwDn.png
 [3]: https://i.imgur.com/GHWLCzy.png
 [4]: https://i.imgur.com/H9uUNhR.png
+[5]: https://i.imgur.com/MTq1hnq.png
+[6]: https://i.imgur.com/Mo09nN3.png
