@@ -74,4 +74,4 @@ As we can see, now the machines are able to ping each other, but not able to rea
 [1]: https://i.imgur.com/BAaW0mU.png
 [2]: https://i.imgur.com/DkyhwDn.png
 [3]: https://i.imgur.com/GHWLCzy.png
-[4]: blob:https://imgur.com/fa503292-2ad1-4aee-aa9b-1d16c9ca2a4f
+[4]: https://i.imgur.com/H9uUNhR.png
